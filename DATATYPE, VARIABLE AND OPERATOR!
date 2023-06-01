@@ -1,0 +1,84 @@
+#include <iostream>
+using namespace std;//
+
+int main() {
+    
+    cout << endl << "\n" <<"DATATYPE, VARIABLE AND OPERATOR!" << endl << endl;
+    //endl-> ENTER, NEW LINE OR same as \n
+    
+    // int,char,bool,double,float --> DATATYPE
+    // name,space alocated to any operands --> VARIABLE
+    
+    int a = 12;
+     cout << "INTEGER: " <<a << endl;
+     
+    char ch = 'h';
+     cout << "CHARACTER: " << ch << endl;
+     
+    bool b = true;
+    bool f = false;
+     cout <<"TRUE: " << b << endl << "FALSE" << f << endl;
+    
+    float fl = 2.3;
+     cout << "FLOAT" << fl << endl;
+    
+    double dl = 1.2;
+     cout << "DOUBLE" << dl << endl;
+     
+    int size = sizeof(a);
+     cout << endl << "Size of a is: "<< size << endl;
+     
+     cout<< endl <<"TYPECASTING";
+     // TYPECASTING --> CHANGING THE DATATYPE
+     
+     int j = 'a';
+     cout << endl << "INT --> CHAR (ascii): " << a << endl;// int deta type char variable = int
+     
+     char z = 97;
+     cout << "CHAR --> INT: " << z << endl;
+     //char datatype int variable = char
+     
+     char u = 355786876;
+     cout << "CHAR --> INT: " << u << endl;
+     // char data type int variable = char
+     
+     // UNSIGNED STORES ONLY POSITIVE INTEGERS
+     unsigned int no = 5;
+     unsigned int na = -5;
+     cout << endl << no << endl << na << endl;
+     
+     cout << endl << "OPERATORS" << endl;
+     int o=2;
+     int k=4;
+     cout << endl << "ARTMATIC OPERATOR: " << "(+ , - , * , /)"<< endl;
+     cout << "o + k = " << o+k << endl;
+     cout << "o - k = " << o-k << endl;
+     cout << "o * k = " << o*k << endl;
+     cout << "o / k = " << o/k << endl;// in float
+     
+    
+    cout << endl << "RELATIONAL OPERATOR: " << "(= , < . >, <= , >= , == , != ) " <<endl;
+     bool first = (a==b);
+     cout << first << endl;
+    
+    bool second = (a>b);
+     cout << second << endl;
+     
+     bool third = (a<b);
+     cout << third << endl;
+     
+     bool fourth = (a>=b);
+     cout << fourth << endl;
+     
+     bool fifth = (a<=b);
+     cout << fifth << endl;
+     
+     bool sixth = (a!=b);
+     cout << sixth << endl;
+     
+     
+     cout << endl << "LOGICAL OPERATOR: " << "(&&, ||, !(" <<endl;
+     cout << !a << endl;
+
+    return 0;
+}
