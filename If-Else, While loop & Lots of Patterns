@@ -11,8 +11,7 @@ int main() {
     else if(a<0)
     cout<< a <<" is a negative no." <<endl;
     else
-    cout <<" is eqals to 0" <<endl;
-    
+    cout <<" is equals to 0" <<endl;
     return 0;
 }
 
