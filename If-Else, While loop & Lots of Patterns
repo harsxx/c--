@@ -8,8 +8,25 @@ int main() {
     cin >> a;
     if(a>0)
     cout<< a <<" is a positive no." <<endl;
-    else 
+    else if(a<0)
     cout<< a <<" is a negative no." <<endl;
+    else
+    cout <<" is eqals to 0" <<endl;
+    
     return 0;
+}
+
+//find the greater no of two
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    cout << "Enter value of a and b" << endl;
+    cin >> a >> b;
+    if(a > b)
+    cout << a << " is greater then " << b << endl;
+    else 
+    cout << b << " is greater then " << a << endl;
 }
 
