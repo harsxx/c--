@@ -1,3 +1,5 @@
+/*============================ CONDITIONS ==================*/
+
 //======= find positive and negative no ==========
 #include <iostream>
 using namespace std;
@@ -15,7 +17,7 @@ int main() {
     return 0;
 }
 
-//find the greater no of two
+//========= find the greater of two ==========
 #include <iostream>
 using namespace std;
 
@@ -28,4 +30,52 @@ int main() {
     else 
     cout << b << " is greater then " << a << endl;
 }
+
+//======== LOWER, UPPER, NUMERICAL VALUE BY ASCII=====
+#include <iostream>
+using namespace std;
+
+int main() {
+    char ch;
+    cout << "Enter a char in ch" << endl;
+    cin >> ch;
+    int ascii = ch;
+    if(ascii >= 97 && ascii <= 122 )
+    cout << " LOWER CASE" << endl;
+    else if(ascii >= 65 && ascii <= 90)
+    cout << " UPPER CASE" << endl;
+    else if(ascii >= 48 && ascii <= 57)
+    cout << "NUMERICAL" << endl;
+    else
+    cout << "VALUE NOT AVILABLE" << endl;
+}
+
+//======== LOWER, UPPER, NUMERICAL VALUE ===========
+#include <iostream>
+using namespace std;
+
+int main() {
+     char ch;
+    cout<<"enter your data:";
+    cin >> ch;
+    if (ch >= 'A' && ch <= 'Z')
+    {
+        cout << "Uppercase";
+    }
+    else if (ch >= 'a' && ch <= 'z')
+    {
+        cout << "Lowercase";
+    }
+    else if (ch >= '0' && ch <= '9')
+    {
+        cout << "digits";
+    }
+    else
+    {
+        cout << "try again";
+    }
+return 0;
+}
+
+/*=========================== LOOP ======================*/
 
