@@ -78,4 +78,16 @@ return 0;
 }
 
 /*=========================== LOOP ======================*/
-
+//********** WHILE ***********
+//print no till n using while
+#include <iostream>
+using namespace std;
+int main() {
+  int n;
+  int i=1;
+  cin >> n;
+  while(i <= n){
+    cout << i<< " ";
+      i = i+1;
+  }
+}
