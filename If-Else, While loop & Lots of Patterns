@@ -106,5 +106,5 @@ int main() {
      sum = sum + i;
       i = i+1;
   }
-  cout<< endl << sum << endl;
+  cout<< endl<< "SUM IS" << sum << endl;
 }
