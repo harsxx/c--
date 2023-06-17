@@ -79,7 +79,7 @@ return 0;
 
 /*=========================== LOOP ======================*/
 //********** WHILE ***********
-//print no till n using while
+//====================print no till n using while
 #include <iostream>
 using namespace std;
 int main() {
@@ -90,4 +90,21 @@ int main() {
     cout << i<< " ";
       i = i+1;
   }
+}
+
+// ========== add n numbers =====
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+  int i = 1;
+  int sum = 0;
+  cin >> n;
+  while(i <= n){
+    cout << i<< " ";
+     sum = sum + i;
+      i = i+1;
+  }
+  cout<< endl << sum << endl;
 }
