@@ -92,7 +92,7 @@ int main() {
   }
 }
 
-// ========== add n numbers =====
+// ========== ADD N NUMBER< N nmber ODD SUM, N number EVEN SUM ======
 #include <iostream>
 using namespace std;
 
@@ -100,11 +100,19 @@ int main() {
   int n;
   int i = 1;
   int sum = 0;
+  int odd_sum = 0;
+  int even_sum = 0;
   cin >> n;
   while(i <= n){
     cout << i<< " ";
-     sum = sum + i;
+    sum = sum +i;
+    if(i%2==0)even_sum = even_sum+i;
+    else odd_sum = odd_sum + i;
       i = i+1;
+    
   }
   cout<< endl<< "SUM IS" << sum << endl;
+  cout<< endl << "EVEN SUM: " << even_sum << endl;
+  cout<< endl << "ODD SUM: "<< odd_sum << endl;
+  
 }
