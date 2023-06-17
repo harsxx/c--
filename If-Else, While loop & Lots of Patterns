@@ -116,3 +116,19 @@ int main() {
   cout<< endl << "ODD SUM: "<< odd_sum << endl;
   
 }
+
+//============= CELCUS TO FRAHANITE ================
+#include <iostream>
+using namespace std;
+
+int main(){
+    float c;
+    float f;
+    cout << "Enter: "<< endl;
+    cin >> c;
+    f = (c*9/5)+32;
+    cout << "f is: " << f << endl;
+    return 0;
+}
+
+//============== PRIME NUMBERS ==================
