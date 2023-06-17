@@ -132,3 +132,22 @@ int main(){
 }
 
 //============== PRIME NUMBERS ==================
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a;
+    int i=2;
+    cout << "Enter no: " << endl;
+    cin >> a;
+    while (i< a){
+        if(a%i==0)
+            cout << "it's not prime for " << i << endl;
+        else cout << "its prime for " << i << endl; 
+        i=i+1;
+    }
+    return 0;
+}
+
+
+// =======================  PATTERN  ===========================
