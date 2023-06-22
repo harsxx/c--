@@ -241,23 +241,26 @@ int main() {
     }
     return 0;
 }
-//Print Triangle pattern
+
+
+//Print Triangle Star pattern
 #include <iostream>
 using namespace std;
 
 int main() {
-    int row;
-    int i = 1;
+    int n;
+    int row = 1;
     cout << "Enter : ";
-    cin >> row;
-    while(i <= row){
+    cin >> n;
+    while(row <= n){
         int col = 1;
-        while(col < i){
+        while(col <= row){
             cout << "*";
             col=col+1;
         }
         cout << endl;
-        i=i+1;
+        row=row+1;
     }
     return 0;
 }
+
